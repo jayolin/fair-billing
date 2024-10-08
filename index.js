@@ -7,7 +7,8 @@ try {
     throw new Error("App needs argument for log file path!")
   }
 
-  const result = FairBilling.compute(args[0]);
+  const fairBilling = new FairBilling();
+  const result = fairBilling.compute(args[0]);
   console.log(result.join(lineBreak));
 } catch (error) {
   console.error(error);

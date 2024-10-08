@@ -13,5 +13,11 @@ function getLineBreak() {
   return "\n";
 }
 
+function timeToSeconds(time) {
+  const [hours, minutes, seconds] = time.split(':').map(Number);
+  return hours * 3600 + minutes * 60 + seconds;
+}
+
 exports.normalizeLineEndings = normalizeLineEndings;
 exports.lineBreak = getLineBreak();
+exports.timeToSeconds = timeToSeconds;
