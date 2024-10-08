@@ -1,0 +1,11 @@
+{
+  "name": "bt-fair-billing",
+  "version": "1.0.0",
+  "description": "Fair Billing",
+  "main": "index.js",
+  "author": "James Olinya",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
