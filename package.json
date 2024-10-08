@@ -5,6 +5,10 @@
   "main": "index.js",
   "author": "James Olinya",
   "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "compute": "node index.js"
+  },
   "devDependencies": {
     "jest": "^29.7.0"
   }
