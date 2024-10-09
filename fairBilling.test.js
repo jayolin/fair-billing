@@ -1,4 +1,4 @@
-const FairBilling = require("../FairBilling");
+const FairBilling = require("./FairBilling");
 
 const fairBilling = new FairBilling();
 
